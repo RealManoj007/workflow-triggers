@@ -1,9 +1,11 @@
-name: 02-Expression Varaiables Context Demo
+name: 02-Expression Varaiables Context
+
 on:
     push:
         branches:
             - main
             - feature/*
+
 env:
     APPLICATION_NAME: payment-service
     DEPLOYMENT_ENVIRONMENT: production
